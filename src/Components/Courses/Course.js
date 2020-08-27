@@ -16,7 +16,7 @@ const Course = (props) => {
                     <h3 className="card-title">{title}</h3>
                     <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, nisi magnam voluptates repellat sit quaerat.</p>
                     <button className="enroll-btn" onClick={()=>addToCart(props.data)}>
-                       Enroll Now
+                       Buy Now
                     </button>
                 </div>
             </div>

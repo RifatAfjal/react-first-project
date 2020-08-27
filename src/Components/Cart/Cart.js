@@ -13,11 +13,12 @@ const Cart = (props) => {
               {element} 
               <sup>{courses.length}</sup>
            </h1>
-           <div>
+           <div className="text-center">
                 {
                     courses.map((course,index) => <h6 key={index}>{course.title}: ${course.price}</h6>)
                 }
                 <h3>Total Fee: ${total}</h3>
+                <button className="enroll-btn">Enroll Now</button>
            </div>
         </div>
     );
