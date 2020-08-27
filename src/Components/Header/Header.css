@@ -1,0 +1,13 @@
+.header {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header div {
+    margin: 0 auto;
+    width: 150px;
+    height: 5px;
+    background-color: #01014f;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,54 @@
+.card-design {
+    border-radius: 10px;
+}
+
+/* card head modify */
+.img-container {
+    position: relative;
+}
+.img-container img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: all 0.35s ease-in-out;
+}
+
+.img-container h5 {
+    position: absolute;
+    bottom: -45px;
+    right: 10px;
+    padding: 25px 17px;
+    background-color: #01014f;
+    color: rgb(255, 199, 14);
+    transition: all 0.35s ease-in-out;
+}
+.card-design:hover > .img-container h5{
+    background-color: #ffc70e;
+    color: rgb(1, 1, 79);
+}
+
+
+/* card body modify*/
+.card-title {
+    color: rgb(1, 1, 79);
+}
+.enroll-btn{
+    background-color: #01014f;
+    color: #ffc70e;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.35s ease-in-out;
+    user-select: none;
+}
+.enroll-btn:focus {
+    outline: none;
+}
+.enroll-btn:hover {
+    background-color: #ffc70e;
+    color: #01014f;
+}
+.enroll-btn:active {
+    background-color: rgba(1, 1, 79,0.9);
+    color: #ffc70e;
+}
